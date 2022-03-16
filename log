@@ -57,3 +57,9 @@ list.c:59:16: error: 'n' undeclared (first use in this function)
 list.c:59:16: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 3239152
+Wed Mar 16 20:21:08 HSP 2022: 
+ list.c | 9 ---------
+ 1 file changed, 9 deletions(-)
+ tests:  1|5
+total_score: 10/70
+9d29b98
