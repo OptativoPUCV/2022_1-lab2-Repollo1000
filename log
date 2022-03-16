@@ -4,3 +4,20 @@ Wed Mar 16 19:59:23 HSP 2022:
  tests:  1|5
 total_score: 10/70
 1166421
+Wed Mar 16 20:13:29 HSP 2022: 
+ list.c | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+In file included from test.c:5:0:
+list.c: In function 'pushFront':
+list.c:57:13: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'createNode'
+     Node* n createNode(dato);
+             ^~~~~~~~~~
+list.c:57:24: error: 'dato' undeclared (first use in this function)
+     Node* n createNode(dato);
+                        ^~~~
+list.c:57:24: note: each undeclared identifier is reported only once for each function it appears in
+list.c:58:5: error: 'n' undeclared (first use in this function)
+     n->next = list->head;
+     ^
+Compilation failed
+27559c7
