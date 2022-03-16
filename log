@@ -21,3 +21,17 @@ list.c:58:5: error: 'n' undeclared (first use in this function)
      ^
 Compilation failed
 27559c7
+Wed Mar 16 20:14:07 HSP 2022: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'pushFront':
+list.c:57:13: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'createNode'
+     Node* n createNode(data);
+             ^~~~~~~~~~
+list.c:58:5: error: 'n' undeclared (first use in this function)
+     n->next = list->head;
+     ^
+list.c:58:5: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+c06dffc
