@@ -46,3 +46,14 @@ list.c:57:16: error: 'n' undeclared (first use in this function)
 list.c:57:16: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 0612717
+Wed Mar 16 20:20:39 HSP 2022: 
+ list.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'pushFront':
+list.c:59:16: error: 'n' undeclared (first use in this function)
+     createNode(n);
+                ^
+list.c:59:16: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+3239152
