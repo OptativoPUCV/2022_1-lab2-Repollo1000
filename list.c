@@ -21,7 +21,7 @@ typedef List List;
 
 Node * createNode(void * data) {
     Node * nodo = (Node *)malloc(sizeof(Node));
-    assert(new != NULL);
+    assert(nodo != NULL);
     nodo->data = data;
     nodo->prev = NULL;
     nodo->next = NULL;
