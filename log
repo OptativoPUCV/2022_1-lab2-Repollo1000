@@ -118,3 +118,9 @@ list.c:29:1: error: control reaches end of non-void function [-Werror=return-typ
 cc1.exe: all warnings being treated as errors
 Compilation failed
 b578b7a
+Thu Mar 17 11:28:38 HSP 2022: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|5
+total_score: 15/70
+919fd65

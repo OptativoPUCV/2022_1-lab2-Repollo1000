@@ -25,7 +25,7 @@ Node * createNode(void * data) {
     nodo->data = data;
     nodo->prev = NULL;
     nodo->next = NULL;
-    return new;
+    return nodo;
 }
 
 List * createList() {
