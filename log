@@ -385,3 +385,14 @@ list.c:117:23: error: expected ';' before ':' token
                        ^
 Compilation failed
 b16ba46
+Sat Mar 19 00:05:33 HSP 2022: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'popCurrent':
+list.c:117:19: error: 'NULLl' undeclared (first use in this function)
+         aux->prev=NULLl;
+                   ^~~~~
+list.c:117:19: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+3e9c9d0
