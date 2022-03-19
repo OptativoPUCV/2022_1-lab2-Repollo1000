@@ -396,3 +396,8 @@ list.c:117:19: error: 'NULLl' undeclared (first use in this function)
 list.c:117:19: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 3e9c9d0
+Sat Mar 19 00:05:45 HSP 2022: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+98eaaa6
