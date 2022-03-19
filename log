@@ -375,3 +375,13 @@ Fri Mar 18 23:57:44 HSP 2022:
  1 file changed, 4 insertions(+), 4 deletions(-)
  tests:  0|0
 4a97344
+Sat Mar 19 00:05:17 HSP 2022: 
+ list.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:0:
+list.c: In function 'popCurrent':
+list.c:117:23: error: expected ';' before ':' token
+         aux->prev=NULL:
+                       ^
+Compilation failed
+b16ba46

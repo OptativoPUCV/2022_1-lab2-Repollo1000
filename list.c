@@ -114,6 +114,8 @@ void * popCurrent(List * list) {
     if(list->head == list->current)
     {
         aux = list->current->data;
+        aux->prev=NULL:
+        list->head->next = aux;
         list->head = list->head->next;
 
         free(list->current);
