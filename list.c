@@ -119,7 +119,7 @@ void * popCurrent(List * list) {
 
         free(list->current);
         list->current = list->head;
-        list->head->prev = NULL;
+        list->head->next = NULL;
         return aux->data;
     }
     else
