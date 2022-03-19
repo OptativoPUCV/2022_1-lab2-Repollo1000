@@ -87,6 +87,7 @@ void pushCurrent(List * list, void * data) {
     {
         list->current->next = nuevo;
         nuevo->prev = list->tail;
+        list->tail = nuevo;
     }
     else
     {
