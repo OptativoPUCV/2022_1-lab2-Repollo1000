@@ -465,3 +465,14 @@ Sat Mar 19 13:50:39 HSP 2022:
  tests:  12|0
 total_score: 70/70
 93ab75c
+Sun Mar 20 15:45:38 HSP 2022: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from list.c:3:0,
+                 from test.c:5:
+list.c: In function 'createNode':
+list.c:24:13: error: expected expression before '!=' token
+     assert( != NULL);
+             ^
+Compilation failed
+8ae13b7

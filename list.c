@@ -21,6 +21,7 @@ typedef List List;
 
 Node * createNode(void * data) {
     Node * nodo = (Node *)malloc(sizeof(Node));
+    assert( != NULL);
     nodo->data = data;
     nodo->prev = NULL;
     nodo->next = NULL;
@@ -131,7 +132,7 @@ void * popCurrent(List * list) {
     else
     {
         Node * aux = createNode(list->current->data);
-
+        
         aux = list->current->next;
         list->current->prev->next = aux;
         aux->prev = list->current->prev;
