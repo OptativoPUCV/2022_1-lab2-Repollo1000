@@ -476,3 +476,9 @@ list.c:24:13: error: expected expression before '!=' token
              ^
 Compilation failed
 8ae13b7
+Sun Mar 20 15:46:16 HSP 2022: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  12|0
+total_score: 70/70
+9d95984
